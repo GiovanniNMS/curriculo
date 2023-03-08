@@ -1,0 +1,76 @@
+@import url('<link href="https://fonts.googleapis.com/css2?family=Anton&family=Tilt+Warp&display=swap" rel="stylesheet">');
+
+:root {
+    --font-primaria: 'Tilt Warp', sans-serif;
+    --font-secundaria: 'Anton', sans-serif;
+    --cor-primaria: rgba(41, 80, 46, 0.815);
+    --cor-secundaria: rgb(148, 123, 69);
+}
+
+body {
+    background-color: var(--cor-primaria);
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}
+
+.cabecalho {
+    background-color: var(--cor-secundaria);
+    padding: 2% 10% 2% 10%;
+
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 30px;
+}
+
+.menu__link {
+    color: black;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-weight: 600;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.apresentacao__nome {
+    font-family: 'Tilt Warp', sans-serif;
+}
+
+.apresentacao__dados {
+
+    font-family: 'Anton', sans-serif;
+}
+
+.link__redes {
+    text-decoration: none;
+    color: black;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2% 10% 2% 10%;
+    font-family: var(--font-secundaria);
+}
+
+.subtitulo {
+    font-family: var(--font-secundaria);
+}
+
+.empresa {
+    font-size: 18px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 2px;
+    background-color: var(--cor-secundaria);
+    font-size: var(--font-secundaria);
+}
