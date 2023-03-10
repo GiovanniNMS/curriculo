@@ -3,60 +3,47 @@
 :root {
     --font-primaria: 'Tilt Warp', sans-serif;
     --font-secundaria: 'Anton', sans-serif;
-    --cor-primaria: rgba(41, 80, 46, 0.815);
-    --cor-secundaria: rgb(148, 123, 69);
+    --cor-main: rgb(73, 72, 72);
+    --cor-headerefooter: rgb(158, 157, 155);
+    --cor-texto: rgb(0, 0, 0);
 }
 
 body {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-main);
     margin: 0;
     padding: 0;
-    font-weight: 800;
-}
-
-.cabecalho {
-    background-color: var(--cor-secundaria);
-    padding: 2% 10% 2% 10%;
-
-}
-
-.cabecalho__menu {
-    display: flex;
-    gap: 30px;
-}
-
-.menu__link {
-    color: black;
-    text-decoration: none;
-    font-family: 'Anton', sans-serif;
     font-weight: 600;
+    color: var(--cor-texto);
 }
 
-.apresentacao {
+.cabecalho { 
+    background-color: var(--cor-headerefooter);
     display: flex;
-    align-items: center;
+    text-align: center;
     flex-direction: column;
+    padding: 2px;
+
 }
 
-.apresentacao__nome {
+.cabecalho__nome {
     font-family: 'Tilt Warp', sans-serif;
 }
 
-.apresentacao__dados {
+.cabecalho__dados {
 
     font-family: 'Anton', sans-serif;
 }
 
 .link__redes {
     text-decoration: none;
-    color: black;
+    color: var(--cor-texto);
 }
 
 .conteudo {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 2% 10% 2% 10%;
+    padding: 2% 5% 2% 5%;
     font-family: var(--font-secundaria);
 }
 
@@ -65,12 +52,12 @@ body {
 }
 
 .empresa {
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .rodape {
     text-align: center;
     padding: 2px;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-headerefooter);
     font-size: var(--font-secundaria);
 }
