@@ -1,10 +1,10 @@
-@import url('<link href="https://fonts.googleapis.com/css2?family=Anton&family=Tilt+Warp&display=swap" rel="stylesheet">');
+@import url('<link href="https://fonts.googleapis.com/css2?family=Anton&family=Tilt+Warp&display=swap"  rel="stylesheet">');
 
 :root {
     --font-primaria: 'Tilt Warp', sans-serif;
     --font-secundaria: 'Anton', sans-serif;
-    --cor-main: rgb(73, 72, 72);
-    --cor-headerefooter: rgb(158, 157, 155);
+    --cor-main: rgb(255, 255, 255);
+    --cor-headerefooter: rgb(111, 133, 233);
     --cor-texto: rgb(0, 0, 0);
 }
 
@@ -34,6 +34,12 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
+.minhas__redes{
+    display: flex;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
 .link__redes {
     text-decoration: none;
     color: var(--cor-texto);
@@ -56,6 +62,7 @@ body {
 }
 
 .rodape {
+    font-size: 0.5rem;
     text-align: center;
     padding: 2px;
     background-color: var(--cor-headerefooter);
